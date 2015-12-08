@@ -1,6 +1,6 @@
-body {background-color: #053B4A; text-align: center; font-family: Helvetica; color: white;}
+body {background-color: #053B4A; text-align: center; font-family: Verdana; color: white;}
 a {color: white;}
-#slogan {font-style: italic;}
+#slogan {font-style: italic; text-align: left;}
 #work_history {text-align: left;}
 #about_me {text-align: left;}
 #study {text-align: left;}
