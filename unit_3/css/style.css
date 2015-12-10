@@ -1,5 +1,5 @@
 * {
-	margin: 0; padding: 20px;
+	margin: 0; padding: 0;
 }
 
 body {
@@ -8,15 +8,18 @@ body {
 	font-family: Verdana; 
 	color: white; 
 	font-weight: normal;
+	padding: 20px;
 }
 
 header {
 	background-color: black;
+	padding: 20px;
 }
 
 #hero {
 	text-align: left; 
 	background-color: black;
+	padding: 20px;
 }
 
 #slogan {
