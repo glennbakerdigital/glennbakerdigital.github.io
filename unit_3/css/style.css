@@ -1,6 +1,7 @@
-body {background-color: #47441f; text-align: center; font-family: Verdana; color: white; font-weight: normal;}
-header {background-color: black}
-img {text-align: left; background-color: black}
+body {background-color: #47441f; 
+	text-align: center; font-family: Verdana; color: white; font-weight: normal;}
+header {background-color: black; margin: 0; padding: 0;}
+img {text-align: left; background-color: black;}
 #slogan {font-style: italic; text-align: center;}
 #links {text-align: left;}
 #work_history {text-align: left;}
