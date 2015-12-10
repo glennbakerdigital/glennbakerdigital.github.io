@@ -8,11 +8,12 @@ body {
 	font-family: Verdana; 
 	color: white; 
 	font-weight: normal;
+	padding: 20px;
 }
 
 header {
 	background-color: black;
-	padding: 40px;
+	padding: 20px;
 }
 
 #hero {
@@ -23,22 +24,22 @@ header {
 	font-style: italic; 
 }
 
-#links {
+#links {padding: 20px;
 }
 
-#work_history {
+#work_history {padding: 20px;
 }
 
-#about_me {
+#about_me {padding: 20px;
 }
 
-#study {
+#study {padding: 20px;
 }
 
-#contact {
+#contact {padding: 20px;
 }
 
-ul {
+ul {padding: 20px;
 }
 
 a {
