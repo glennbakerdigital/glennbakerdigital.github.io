@@ -1,5 +1,6 @@
 body {background-color: #47441f; 
-	text-align: center; font-family: Verdana; color: white; font-weight: normal;}
+	text-align: center; font-family: Verdana; color: white; font-weight: normal;
+	margin: 0; padding: 0;}
 header {background-color: black; margin: 0; padding: 0;}
 #hero {text-align: left; background-color: black;}
 #slogan {font-style: italic; text-align: center;}
