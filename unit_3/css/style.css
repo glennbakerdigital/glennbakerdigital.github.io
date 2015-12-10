@@ -20,6 +20,7 @@ header {
 #hero {
 	text-align: left; 
 	background-color: black;
+	margin: 0;
 }
 
 #slogan {
