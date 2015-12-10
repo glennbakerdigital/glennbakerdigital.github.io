@@ -4,7 +4,7 @@
 
 body {
 	background-color: #47441f; 
-	text-align: center; 
+	text-align: left; 
 	font-family: Verdana; 
 	color: white; 
 	font-weight: normal;
@@ -13,7 +13,7 @@ body {
 
 header {
 	background-color: black; 
-	margin: 40px; padding: 0;
+	margin: 40px; padding: 40px;
 }
 
 #hero {
