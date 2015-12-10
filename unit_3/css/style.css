@@ -1,5 +1,5 @@
 * {
-	margin: 0; padding: 0;
+	margin: 0; padding: 20px;
 }
 
 body {
@@ -8,37 +8,36 @@ body {
 	font-family: Verdana; 
 	color: white; 
 	font-weight: normal;
-	padding: 20px;
 }
 
 header {
-	padding: 20px;
 }
 
 #hero {
-	background-color: black;
+	background-color: #353217;
+	padding: 0;
 }
 
 #slogan {
 	font-style: italic; 
 }
 
-#links {padding: 20px;
+#links {
 }
 
-#work_history {padding: 20px;
+#work_history {
 }
 
-#about_me {padding: 20px;
+#about_me {
 }
 
-#study {padding: 20px;
+#study {
 }
 
-#contact {padding: 20px;
+#contact {
 }
 
-ul {padding: 20px;
+ul {
 }
 
 a {
