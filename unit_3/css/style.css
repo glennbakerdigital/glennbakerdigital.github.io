@@ -14,12 +14,12 @@ body {
 header {
 	background-color: black;
 	padding: 20px;
+	margin: 0;
 }
 
 #hero {
 	text-align: left; 
 	background-color: black;
-	padding: 20px;
 }
 
 #slogan {
