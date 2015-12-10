@@ -18,38 +18,30 @@ header {
 }
 
 #hero {
-	text-align: left; 
 	background-color: black;
 	margin: 0;
 }
 
 #slogan {
 	font-style: italic; 
-	text-align: center;
 }
 
 #links {
-	text-align: left;
 }
 
 #work_history {
-	text-align: left;
 }
 
 #about_me {
-	text-align: left;
 }
 
 #study {
-	text-align: left;
 }
 
 #contact {
-	text-align: left;
 }
 
 ul {
-	text-align: left
 }
 
 a {
