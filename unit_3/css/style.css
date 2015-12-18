@@ -1,4 +1,6 @@
-* {margin: 0; padding: 0; box-sizing:border-box;}
+* {
+	margin: 0; padding: 0; box-sizing:border-box;
+}
 
 body {
 	background-color: #353217; 
@@ -12,17 +14,14 @@ header {
 	padding: 20px;
 }
 
-<<<<<<< HEAD
 p {
 	margin-bottom: 10px;
 }
 
-h2 {
-	margin-bottom: 10px;
+h1, h2, h3, h4, h5, h6 {
+	margin-bottom: .5em;
 }
-h3 {
-	margin-bottom: 10px;
-}
+
 #slogan {
 	margin-top: 5px;
 	margin-bottom: 5px;
@@ -59,8 +58,6 @@ h3 {
 	background-color: #47441f;
 }
 
-=======
->>>>>>> origin/master
 footer {
 	padding: 20px;
 	text-align: center;
@@ -74,6 +71,7 @@ footer a {
 footer a:hover {
 	color: yellow;
 }
+
 img {
 	vertical-align: middle;
 }
@@ -88,44 +86,10 @@ nav a:hover {
 }
 
 ul {
-<<<<<<< HEAD
 	margin-left: 20px;
 	margin-bottom: 10px;
-=======
-	padding: 20px;
->>>>>>> origin/master
 }
+
 a {
 	color: white;
-}
-h1, h2, h3 {
-	margin-bottom:.5em;
-}
-#hero {
-	background-color: #47441f;
-}
-
-#intro {
-	padding: 20px;
-	margin-bottom: 20px;
-}
-
-#about_me {
-	padding: 20px;
-	background-color: #47441f;
-}
-
-#work_history {
-	padding: 20px; 
-	background-color: #353217;
-}
-
-#study {
-	padding: 20px;
-	background-color: #47441f;
-}
-
-#contact {
-	padding: 20px;
-	background-color: #47441f;
 }
