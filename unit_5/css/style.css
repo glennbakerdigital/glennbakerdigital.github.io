@@ -13,10 +13,6 @@ body {
 	font-weight: lighter;
 }
 
-header {
-	padding: 20px;
-}
-
 p {
 	margin-bottom: .75em;
 	font-family: 'Roboto Slab', serif;
@@ -81,7 +77,9 @@ a {
 }
 
 #hero {
-	background-color: #47441f;
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
 }
 
 #intro {
@@ -91,21 +89,54 @@ a {
 }
 
 #about_me {
+	background-color: #FFE2B8;
+	border: 1px black solid;
 	padding: 20px;
-	background-color: #47441f;
 }
 
 #work_history {
-	padding: 20px; 
-	background-color: #353217;
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
 }
 
 #study {
+	background-color: #FFE2B8;
+	border: 1px black solid;
 	padding: 20px;
-	background-color: #47441f;
 }
 
 #contact {
 	padding: 20px;
 	background-color: #47441f;
+}
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#internal {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#external {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#aside {
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#title {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
 }
