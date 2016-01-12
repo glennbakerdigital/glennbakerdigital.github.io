@@ -1,28 +1,23 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
-
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:300);
-
 * {
 	margin: 0; padding: 0; box-sizing:border-box;
 }
-
+body {
+	background-color: #353217; 
+	text-align: left; 
+	color: white; 
+	font-weight: 300;
+	font-family: 'Roboto Slab', serif;
+}
 header {
 	background-color: #FFED74;
 	border: 1px black solid;
 	padding: 20px;
 }
-
-body {
-	background-color: #353217; 
-	text-align: left; 
-	color: white; 
-	font-weight: lighter;
-}
-
 p {
 	margin-bottom: .75em;
-	font-family: 'Roboto Slab', serif;
-	font-weight: lighter;
+	font-weight: 300;
 }
 
 h1 {
@@ -39,13 +34,11 @@ h2, h3, h4, h5, h6 {
 footer {
 	padding: 20px;
 	text-align: center;
-	font-family: 'Roboto Slab', serif;
 }
 
 footer a {
 	margin-right: 20px;
 	text-decoration: none;
-	font-family: 'Roboto Slab', serif;
 }
 
 footer a:hover {
@@ -69,7 +62,6 @@ nav a:hover {
 ul {
 	margin-left: 20px;
 	margin-bottom: .75em;
-	font-family: 'Roboto Slab', serif;
 }
 
 a {
