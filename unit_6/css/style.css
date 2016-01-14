@@ -1,5 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
+
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:300);
+
 * {
 	margin: 0; padding: 0; box-sizing:border-box;
 }
@@ -10,11 +12,13 @@ body {
 	font-weight: 300;
 	font-family: 'Roboto Slab', serif;
 }
+
 header {
 	background-color: #FFED74;
 	border: 1px black solid;
 	padding: 20px;
 }
+
 p {
 	margin-bottom: .75em;
 	font-weight: 300;
@@ -98,7 +102,6 @@ a {
 	float: right;
 	width: 62%;
 }
-
 
 #slogan {
 	margin-top: .5em;
