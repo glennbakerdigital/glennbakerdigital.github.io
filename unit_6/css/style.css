@@ -5,8 +5,9 @@
 * {
 	margin: 0; padding: 0; box-sizing:border-box;
 }
+
 body {
-	background-color: #353217; 
+	background-color: #353217;
 	text-align: left; 
 	color: white; 
 	font-weight: 300;
@@ -14,9 +15,7 @@ body {
 }
 
 header {
-	background-color: #FFED74;
-	border: 1px black solid;
-	padding: 20px;
+	padding: 2em;
 }
 
 p {
@@ -24,8 +23,34 @@ p {
 	font-weight: 300;
 }
 
+nav a {
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	display: block;
+	width: 90px;
+	float: left;
+	padding: .5em;
+	margin: .5em;
+}
+
+nav a:hover {
+	background-color: #47441f;
+}
+
+img {
+	display: block;
+	float: left;
+}
+
+ul {
+	margin-left: 20px;
+	margin-bottom: .75em;
+}
+
 h1 {
-	margin-top: .5em;
+	font-size: 3em;
 	font-family: 'Roboto', sans-serif;
 }
 
@@ -43,33 +68,11 @@ footer {
 footer a {
 	margin-right: 20px;
 	text-decoration: none;
+	color: white;
 }
 
 footer a:hover {
 	color: yellow;
-}
-
-img {
-	vertical-align: middle;
-}
-
-nav a {
-	margin-right: 20px;
-	text-decoration: none;
-	font-family: 'Roboto', sans-serif;
-}
-
-nav a:hover {
-	color: yellow;
-}
-
-ul {
-	margin-left: 20px;
-	margin-bottom: .75em;
-}
-
-a {
-	color: white;
 }
 
 .clearfix:after {
@@ -81,61 +84,37 @@ a {
 	height: 0;
 }
 
-#two_column {
-	background-color: #FFB7CF;
-	border: 1px black solid;
-	padding: 20px;
+#wrapper {
+	width: 1080px;
 }
 
-#left {
-	background-color: violet;
-	border: 1px black solid;
-	padding: 20px;
+#Name {
 	float: left;
-	width: 30%;
+	width: 640px;
 }
 
-#right {
-	background-color: pink;
-	border: 1px black solid;
-	padding: 20px;
+#scroll {
+	display: block;
 	float: right;
-	width: 62%;
-}
-
-#slogan {
-	margin-top: .5em;
-	margin-bottom: .5em;
-	font-weight: normal;
+	width: 440px;
 }
 
 #hero {
-	background-color: #FFE2B8;
-	border: 1px black solid;
-	padding: 20px;
-}
-
-#intro {
-	padding: 20px;
-	margin-bottom: .75em;
-	font-weight: normal;
+	background-color: #47441f;
 }
 
 #about_me {
-	background-color: #FFE2B8;
-	border: 1px black solid;
+	background-color: #47441f;
 	padding: 20px;
+	clear: both;
 }
 
 #work_history {
-	background-color: #FFE2B8;
-	border: 1px black solid;
 	padding: 20px;
 }
 
 #study {
-	background-color: #FFE2B8;
-	border: 1px black solid;
+	background-color: #47441f;
 	padding: 20px;
 }
 
@@ -144,26 +123,16 @@ a {
 	background-color: #47441f;
 }
 
-#internal {
-	background-color: #E8C66A;
-	border: 1px black solid;
-	padding: 20px;
-}
-
-#external {
-	background-color: #FFED74;
-	border: 1px black solid;
-	padding: 20px;
-}
-
 #aside {
-	background-color: #FFC675;
-	border: 1px black solid;
+	float: right;
 	padding: 20px;
+	width: 400px;
+	height: 540px;
+	text-align: left;
+	padding-top: 7.5em
 }
 
 #title {
-	background-color: #FFE2B8;
-	border: 1px black solid;
+	background-color: #47441f;
 	padding: 20px;
 }
