@@ -29,7 +29,7 @@ nav a {
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
 	display: block;
-	width: 90px;
+	width: 85px;
 	float: left;
 	padding: .5em;
 	margin: .5em;
@@ -85,12 +85,12 @@ footer a:hover {
 }
 
 #wrapper {
-	width: 1080px;
+	width: 1040px;
 }
 
 #Name {
 	float: left;
-	width: 640px;
+	width: 520px;
 }
 
 #scroll {
@@ -125,14 +125,10 @@ footer a:hover {
 
 #aside {
 	float: right;
-	padding: 20px;
-	width: 400px;
-	height: 540px;
 	text-align: left;
-	padding-top: 7.5em
 }
 
 #title {
 	background-color: #47441f;
-	padding: 20px;
+	padding: 1em;
 }
