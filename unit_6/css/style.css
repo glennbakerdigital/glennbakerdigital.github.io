@@ -39,11 +39,6 @@ nav a:hover {
 	background-color: #47441f;
 }
 
-img {
-	display: block;
-	float: left;
-}
-
 ul {
 	margin-left: 20px;
 	margin-bottom: .75em;
@@ -61,8 +56,10 @@ h2, h3, h4, h5, h6 {
 }
 
 footer {
+	background-color: #47441f;
 	padding: 20px;
 	text-align: center;
+	clear: both;
 }
 
 footer a {
@@ -99,8 +96,22 @@ footer a:hover {
 	width: 440px;
 }
 
-#hero {
-	background-color: #47441f;
+#aside {
+	text-align: left;
+	padding: 2em;
+}
+
+#Articles img {
+	float: left;
+	padding: 22.5px;
+}
+
+#articles_links a {
+	width: 345px;
+	text-decoration: none;
+	color: white;
+	float: left;
+	padding: 22.5px;
 }
 
 #about_me {
@@ -121,14 +132,4 @@ footer a:hover {
 #contact {
 	padding: 20px;
 	background-color: #47441f;
-}
-
-#aside {
-	float: right;
-	text-align: left;
-}
-
-#title {
-	background-color: #47441f;
-	padding: 1em;
 }
