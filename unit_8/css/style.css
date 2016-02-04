@@ -118,23 +118,23 @@ footer a:hover {
 	width: 33.33%;
 }
 
-#Articles {
-	padding: 2.5em;
-}
 
-#Articles img {
+#articles_images img {
 	float: left;
 	padding: 1.25em;
 	width: 33.333%;
 }
 
-#articles_links a {
+#Articles_links a {
 	text-decoration: none;
+	text-align: center;
 	color: white;
 	float: left;
 	padding: 1.25em;
 	width: 33.333%;
+	font-family: 'Roboto', sans-serif;
 }
+
 
 #about_me {
 	background-color: #47441f;
@@ -163,6 +163,7 @@ footer a:hover {
 
 	}
 
+
 @media only screen and (max-width: 1100px) {
 
 #social img {
@@ -171,7 +172,12 @@ footer a:hover {
 
 	}
 
+
 @media only screen and (max-width: 1010px) {
+
+p, ul {
+	font-size: .9em;
+}
 
 #social img {
 	padding: .5em 8.5em;
@@ -180,7 +186,9 @@ footer a:hover {
 #scroll {
 	font-size: .85em;
 }
+	
 	}
+
 
 @media only screen and (max-width: 960px) {
 
@@ -189,6 +197,7 @@ footer a:hover {
 }
 
 	}
+
 
 @media only screen and (max-width: 917px) {
 
@@ -204,34 +213,44 @@ footer a:hover {
 
 @media only screen and (max-width: 900px) {
 
-
 nav a {
 	width: 100%;
+}
+
+p ul {
+	font-size: .8em;
+}
+
+#scroll {
+	font-size: .85em;
 }
 
 #Name {
 	display: block;
 	width: 100%;
 	padding-bottom: 1em;
-	}
+}
 
 #scroll {
 	display: block;
 	width: 100%;
-	}
+	font-size: 1em;
+}
 
 #social img {
 	padding: .5em 7.5em;
 }
+	
 	}
 
-	@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 850px) {
 
 #social img {
 	padding: .5em 7em;
 }
-
+	
 	}
+
 
 @media only screen and (max-width: 800px) {
 
@@ -241,6 +260,7 @@ nav a {
 
 	}
 
+
 @media only screen and (max-width: 750px) {
 
 #social img {
@@ -249,13 +269,20 @@ nav a {
 
 	}
 
+
 @media only screen and (max-width: 700px) {
 
 #social img {
 	padding: .5em 5.5em;
 }
 
+#Articles_links {
+	font-size: .85em
+}
+	
 	}
+
+
 
 @media only screen and (max-width: 650px) {
 
@@ -265,13 +292,23 @@ nav a {
 
 	}
 
+
 @media only screen and (max-width: 600px) {
 
 #social img {
 	padding: .5em 4.5em;
 }
 
+p, ul {
+	font-size: .75em;
+}
+
+#Articles_links {
+	font-size: .8em
+}
+
 	}
+
 
 @media only screen and (max-width: 550px) {
 
@@ -281,13 +318,16 @@ nav a {
 
 	}
 
+
 @media only screen and (max-width: 500px) {
 
 #social img {
 	padding: .5em 3.5em;
 }
 
+	
 	}
+
 
 @media only screen and (max-width: 475px) {
 
@@ -295,8 +335,12 @@ h1 {
 	font-size: 2.5em;
 	text-align: center;
 }
+	
+	}
+
 
 @media only screen and (max-width: 450px) {
+
 
 #social img {
 	padding: .5em 3em;
@@ -304,12 +348,12 @@ h1 {
 
 	}
 
+
 @media only screen and (max-width: 408px) {
 
 h1 {
 	font-size: 2.25em;
 	text-align: center;
 }
-
 
 	}
