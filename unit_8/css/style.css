@@ -100,12 +100,8 @@ footer a:hover {
 }
 
 #hero_image {
-	background-image: url("../images/GNB6.jpg");
-	width: 100%;
-}
-
-#hero_image img {
-	background-image: 100%;
+	background-image: url("../images/GNB6.jpg") no-repeat left center scroll;
+	background-size: cover;
 }
 
 #hero_image h2 {
